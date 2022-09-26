@@ -18,10 +18,12 @@ export default function Longboard() {
           worked for them. To start with, these are the guides that I followed
           when I was learning:
         </p>
-        <Link href="https://downhill254.com/coleman-slide-for-longboard-downhill-pendulum-slide/" className="text-purple">
+        <Link href="https://downhill254.com/coleman-slide-for-longboard-downhill-pendulum-slide/">
+          <a className="text-purple">
           Downhill245
+          </a>
         </Link>
-        <Link href="https://youtu.be/5JuuF785SPY" className="text-purple">Landyachtz</Link>
+        <Link href="https://youtu.be/5JuuF785SPY"><a className="text-purple">Landyachtz</a></Link>
         <h2 className="text-center text-xl md:text-4xl text-red font-bold">Beginning Sliding</h2>
         <p>To start learning to slide you need:</p>
         <div className="bg-background-darker text-green rounded-xl p-5 drop-shadow-2xl">
@@ -89,9 +91,11 @@ export default function Longboard() {
           infront of my front foot and really lean into my hand on the ground as
           I put it down. It feels a lot different to do than leaning back in the
           Coleman, because you lean into/over it and not back.{" "}
-          <Link href="https://youtu.be/hJajtKI6ED0" className="text-purple">
+          <Link href="https://youtu.be/hJajtKI6ED0">
+            <a className="text-purple">
             This video of Zak Maytum from Venom Bushings really helped me
             visualize the movement of how to kick out into the slide.
+            </a>
           </Link>
         </p>
         <h2 className="text-center text-xl md:text-4xl text-red font-bold">Next Step</h2>

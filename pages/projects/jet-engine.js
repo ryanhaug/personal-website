@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-
 export default function JetEngine() {
   return (
     <div className="h-full">
@@ -29,7 +28,6 @@ export default function JetEngine() {
             </li>
           </ol>
         </div>
-
         <p>
           A turbojet engine consits of three parts: the compressor, the burner,
           and the turbine.{" "}
@@ -50,7 +48,6 @@ export default function JetEngine() {
             </li>
           </ul>
         </div>
-
         <p>
           Most modern engines use axial compressor because they can achieve
           higher compression ratios (today's compressors have a ratio of over
@@ -89,7 +86,6 @@ export default function JetEngine() {
             />
           </div>
         </div>
-
         <p>
           The tapered gaspath in an axial compressor is as a{" "}
           <strong>
@@ -161,7 +157,6 @@ export default function JetEngine() {
             />
           </div>
         </div>
-
         <p>
           Use some of the excess air to cool the combustor walls, keep flame
           away from liner. Re-circulating vortex infront of fuel nozzle promotes
@@ -170,47 +165,40 @@ export default function JetEngine() {
         <h3 className="text-center text-xl md:text-3xl text-cyan font-bold">
           Sources From Research
         </h3>
-        <Link
-          href="https://www.summaryplanet.com/engineering/Jet-engine-design.html"
-          className="text-purple"
-        >
-          https://www.summaryplanet.com/engineering/Jet-engine-design.html
+        <Link href="https://www.summaryplanet.com/engineering/Jet-engine-design.html">
+          <a className="text-purple">
+            https://www.summaryplanet.com/engineering/Jet-engine-design.html
+          </a>
         </Link>
-        <Link
-          href="https://nptel.ac.in/content/storage2/courses/112104117/chapter_4/4_9.html"
-          className="text-purple"
-        >
-          https://nptel.ac.in/content/storage2/courses/112104117/chapter_4/4_9.html
+        <Link href="https://nptel.ac.in/content/storage2/courses/112104117/chapter_4/4_9.html">
+          <a className="text-purple">
+            https://nptel.ac.in/content/storage2/courses/112104117/chapter_4/4_9.html
+          </a>
         </Link>
-        <Link
-          href="https://en.wikipedia.org/wiki/Axial_compressor"
-          className="text-purple"
-        >
-          https://en.wikipedia.org/wiki/Axial_compressor
+        <Link href="https://en.wikipedia.org/wiki/Axial_compressor">
+          <a className="text-purple">
+            https://en.wikipedia.org/wiki/Axial_compressor
+          </a>
         </Link>
-        <Link
-          href="https://Linkerospaceengineeringblog.com/jet-engine-compressor/"
-          className="text-purple"
-        >
-          https://Linkerospaceengineeringblog.com/jet-engine-compressor/
+        <Link href="https://Linkerospaceengineeringblog.com/jet-engine-compressor/">
+          <a className="text-purple">
+            https://Linkerospaceengineeringblog.com/jet-engine-compressor/
+          </a>
         </Link>
-        <Link
-          href="https://www.sciencedirect.com/science/Linkrticle/pii/S2212540X16300025?via%3Dihub"
-          className="text-purple"
-        >
-          https://www.sciencedirect.com/science/Linkrticle/pii/S2212540X16300025?via%3Dihub
+        <Link href="https://www.sciencedirect.com/science/Linkrticle/pii/S2212540X16300025?via%3Dihub">
+          <a className="text-purple">
+            https://www.sciencedirect.com/science/Linkrticle/pii/S2212540X16300025?via%3Dihub
+          </a>
         </Link>
-        <Link
-          href="https://en.wikipedia.org/wiki/Isentropic_nozzle_flow"
-          className="text-purple"
-        >
-          https://en.wikipedia.org/wiki/Isentropic_nozzle_flow
+        <Link href="https://en.wikipedia.org/wiki/Isentropic_nozzle_flow">
+          <a className="text-purple">
+            https://en.wikipedia.org/wiki/Isentropic_nozzle_flow
+          </a>
         </Link>
-        <Link
-          href="https://www.grc.nasa.gov/www/k-12/Linkirplane/wrong1.html"
-          className="text-purple"
-        >
-          https://www.grc.nasa.gov/www/k-12/Linkirplane/wrong1.html
+        <Link href="https://www.grc.nasa.gov/www/k-12/Linkirplane/wrong1.html">
+          <a className="text-purple">
+            https://www.grc.nasa.gov/www/k-12/Linkirplane/wrong1.html
+          </a>
         </Link>
         <h2 className="text-center text-xl md:text-4xl text-red font-bold">
           Designing and Building the Engine
@@ -237,7 +225,7 @@ export default function JetEngine() {
           attack while keeping a balanced turbine rotor. In searching online I
           found{" "}
           <Link href="https://www.instructables.com/Homemade-Tin-Can-Turbine-With-3d-printed-Compresso/">
-            someone else
+            <a className="text-purple"> someone else</a>
           </Link>{" "}
           who had a similar idea and pressed the metal in sheet metal press made
           out of 3d printed dies.
@@ -284,7 +272,6 @@ export default function JetEngine() {
             <Image src="/full-drawing.jpg" layout="fill" objectFit="contain" />
           </div>
         </div>
-
         <p>
           The combustion liner is made of a sheet metal cone and cylinder with
           holes drilled in them. Here are the tests from the{" "}
@@ -314,7 +301,6 @@ export default function JetEngine() {
             />
           </div>
         </div>
-
         <p>
           Once the liner was drilled and spot welded together we bolted it into
           the engine housing. Then the copper tubing with holes in it serving as
@@ -347,14 +333,16 @@ export default function JetEngine() {
           decreases in the later stages as the number of blades increases.
         </p>
         <div className="flex flex-wrap justify-center gap-5">
-        <div className="relative h-32 w-56 md:h-72 md:w-96">
-          <Image src="/shellpic.png" layout="fill" objectFit="contain" />
+          <div className="relative h-32 w-56 md:h-72 md:w-96">
+            <Image src="/shellpic.png" layout="fill" objectFit="contain" />
+          </div>
+          <div className="relative h-32 w-56 md:h-72 md:w-96">
+            <Image src="/shell-stages.jpg" layout="fill" objectFit="contain" />
+          </div>
         </div>
-        <div className="relative h-32 w-56 md:h-72 md:w-96">
-          <Image src="/shell-stages.jpg" layout="fill" objectFit="contain" />
-        </div>
-        </div>
-        <h3 className="text-center text-xl md:text-3xl text-cyan font-bold">Machining the Axle</h3>
+        <h3 className="text-center text-xl md:text-3xl text-cyan font-bold">
+          Machining the Axle
+        </h3>
         <p>
           The axle is threaded on each end to take lock nuts to keep itself
           centered in the engine. The axle will also be keyed to take 1/8 in
@@ -363,12 +351,16 @@ export default function JetEngine() {
           result of our tech wing being remodeled. So we had a friend at a
           professional shop mill it for us.
         </p>
-        <h3 className="text-center text-xl md:text-3xl text-cyan font-bold">The Test</h3>
+        <h3 className="text-center text-xl md:text-3xl text-cyan font-bold">
+          The Test
+        </h3>
         <p>
           The first test was just the combustion liner in the housing. We used
           compressed air to simulate the air from the air compressor.
         </p>
-        <Link href="https://youtu.be/qZWnE_8dQdU" className="text-purple">https://youtu.be/qZWnE_8dQdU</Link>
+        <Link href="https://youtu.be/qZWnE_8dQdU">
+          <a className="text-purple">https://youtu.be/qZWnE_8dQdU</a>
+        </Link>
         <p>
           The second and final test was putting it all together and spinning it
           up with compressed air. Once spun up to speed, the velocity imparted
@@ -378,12 +370,21 @@ export default function JetEngine() {
           down the airspeed between the compressor section and the combustor
           section.
         </p>
-        <Link href="https://youtu.be/sN9D55REclQ" className="text-purple">https://youtu.be/sN9D55REclQ</Link>
-        <br></br>
+        <Link href="https://youtu.be/sN9D55REclQ">
+          <a className="text-purple">https://youtu.be/sN9D55REclQ</a>
+        </Link>
+        <div className="flex flex-wrap justify-center gap-5">
+          <div className="relative h-32 w-56 md:h-72 md:w-96">
+            <Image src="/cutaway.jpg" layout="fill" objectFit="contain" />
+          </div>
+          <div className="relative h-32 w-56 md:h-72 md:w-[30rem]">
+            <Image src="/engine-test.png" layout="fill" objectFit="contain" />
+          </div>
+        </div>{" "}
         <div className="flex flex-wrap gap-5">
           <Link href="https://github.com/ryanhaug/JetEngine">
             <div className="bg-background-darker p-5 text-bold hover:text-purple rounded-xl border-2 border-background-darker hover:border-purple drop-shadow-2xl">
-                github page for all 3d print files and sheet metal templates
+              github page for all 3d print files and sheet metal templates
             </div>
           </Link>
         </div>

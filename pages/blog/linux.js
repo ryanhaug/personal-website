@@ -36,7 +36,7 @@ export default function Linux() {
           system but a changed included software and desktop enviornment. This
           is really cool because it really allows you to fine tune your
           operating system to your preferences and workflow. There are sites
-          like <Link href="https://distrowatch.com/" className="text-purple">Distro Watch</Link> that have a
+          like <Link href="https://distrowatch.com/"><a className="text-purple">Distro Watch</a></Link> that have a
           list of popular Linux distributions to choose from. This large number
           of choices may seem intimidating for some so in this guide we will
           only focus on two. Chances are you are a Windows or Mac user, and
@@ -51,23 +51,23 @@ export default function Linux() {
         <ul>
           <li>
             If you want to use Linux Mint go{" "}
-            <Link href="https://linuxmint.com/download.php" className="text-purple">here</Link> and click
+            <Link href="https://linuxmint.com/download.php"><a className="text-purple">here</a></Link> and click
             Cinnamon
           </li>
           <li>
             If you want to use Ubuntu go{" "}
-            <Link href="https://ubuntu.com/download/desktop" className="text-purple">here</Link>
+            <Link href="https://ubuntu.com/download/desktop"><a className="text-purple">here</a></Link>
           </li>
         </ul>
         <p>Go to the according website and download the .iso file</p>
         <h2 className="text-center text-xl md:text-4xl text-red font-bold">How To Create Bootable USB</h2>
         <p>
           If you are on Windows you will need to install{" "}
-          <Link href="https://rufus.ie" className="text-purple">rufus</Link>
+          <Link href="https://rufus.ie"><a className="text-purple">rufus</a></Link>
         </p>
         <p>
           If you are on Mac you will need to install{" "}
-          <Link href="https://www.balena.io/etcher/" className="text-purple">etcher</Link>
+          <Link href="https://www.balena.io/etcher/"><a className="text-purple">etcher</a></Link>
         </p>
         <p>
           For both tools it works essentially the same. Insert a 8Gb or larger

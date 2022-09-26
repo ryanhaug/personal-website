@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-
 export default function DeliverU() {
   return (
     <div className="h-full">
@@ -78,9 +77,7 @@ export default function DeliverU() {
           frontend is coded in Nextjs which I personally coded after we had to
           let go of the one coder who wasn't doing his job. You can see this
           system in use at{" "}
-          <Link href="https://deliveru.app/" className="text-purple">
-            DeliverU.app
-          </Link>
+            <Link href="https://deliveru.app/"><a className="text-purple">DeliverU.app</a></Link>
         </p>
         <div className="flex flex-wrap gap-5 justify-center">
           <div className="relative h-72 w-56 md:h-96 md:w-72">

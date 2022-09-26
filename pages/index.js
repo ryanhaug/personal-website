@@ -14,8 +14,8 @@ export default function Home() {
           <ul className="list-disc list-inside">
             <li>
               Working on{" "}
-              <Link href="https://deliveru.com" className="underline hover:text-purple">
-                DeliverU
+              <Link href="https://deliveru.com">
+                <p className="underline hover:text-purple">DeliverU</p>
               </Link>
             </li>
             <li>Going to college at Rochester Institute of Technology</li>

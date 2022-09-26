@@ -15,7 +15,7 @@ export default function Home() {
             <li>
               Working on{" "}
               <Link href="https://deliveru.com">
-                <p className="underline hover:text-purple">DeliverU</p>
+                <a className="underline hover:text-purple">DeliverU</a>
               </Link>
             </li>
             <li>Going to college at Rochester Institute of Technology</li>

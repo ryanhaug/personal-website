@@ -16,9 +16,9 @@ export default function Home() {
               Jet Engine
             </div>
           </Link>
-          <Link href="#">
+          <Link href="/projects/bench">
             <div className="bg-background-darker p-5 text-bold hover:text-purple rounded-xl border-2 border-background-darker hover:border-purple drop-shadow-2xl">
-              Tetris
+              Bench
             </div>
           </Link>
           <Link href="/projects/deliveru">
